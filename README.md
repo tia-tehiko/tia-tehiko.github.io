@@ -1,1 +1,1 @@
-# tia-tehikogithub.io
+# tia-tehiko.github.io
