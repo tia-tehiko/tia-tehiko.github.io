@@ -1,0 +1,13 @@
+* {
+    font-family: 'Fira Mono', monospace;
+}
+
+.header {
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.portrait {
+    border-radius: 40px;
+}
