@@ -6,6 +6,12 @@
     display: grid;
 
 }
+.navbar {
+    text-align: right;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 112, 84, 0.377);
+}
 
 .header {
     justify-self: center;
