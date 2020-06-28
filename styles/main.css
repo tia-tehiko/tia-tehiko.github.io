@@ -1,7 +1,11 @@
 * {
     font-family: 'Fira Mono', monospace;
-    border: 1px solid red !important; 
+    /*border: 1px solid red !important; */
 }
+.body {
+    background-color: #e6fffe;
+}
+
 hr {
 	border: 0;
 	height: 1px;
@@ -19,6 +23,10 @@ hr {
 
 .portrait {
     border-radius: 40px;
+    box-shadow: 0 4px 6px 0 rgba (34, 60, 80, .16)
+}
+.portrait:hover {
+    box-shadow: 0 8px 12px 0 rgba(34, 60, 80, .16)
 }
 .about-grid{
 	display: grid;
@@ -32,18 +40,46 @@ hr {
 	list-style: none;
 	padding: 0;
 }
+
 .blog-heading {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
 }
+
 .blog-grid{
     display: grid; 
     grid-template-columns: 25% 25% 25% 25%;
 }
+
 .blog-image-wrapper {
-
+    justify-self: center;
+    position: relative;
+    padding: 4%;
+    margin: 10px 10px 10px 10px;
 }
-.blog-image {
 
+.blog-image {
+width: 225px;
+}
+
+.blog-image-wrapper > .link {
+    position: absolute;
+    text-align: center;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    transition: all ease-in-out .2s;
+    font-weight: bold;
+}
+
+blog-image-wrapper:hover > .link {
+	visibility: visible;
+}
+
+.blog-image:hover{
+	filter: brightness(.50);
+	box-shadow: 0 8px 12px 0 rgba(34, 60,80, .16)
 }
