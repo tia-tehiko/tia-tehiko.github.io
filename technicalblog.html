@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Relative, Absolute and Fixed Positioning</title>
+    <link href="styles/technical.css" rel="stylesheet" type="text/css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<html>
+  <body>
+
+    <div class="header"> 
+      <h1>Understanding the differences between Relative, Absolute and Fixed Positioning</h1>
+    </div>
+</hr>
+    <div class="subheading">
+        <p>The CSS property “Position” as the name suggests is used to position your elements on your webpage using CSS. There are five options when selecting a position attribute. The main attributes Relative, Absolute and Fixed and their differences are explained below. </p>
+    </div>
+
+    <div class="grid">
+        <div class="content">
+            <h2>RELATIVE</h2>
+            <p>Setting your elements position as <strong>Relative</strong> means you are setting the element relative to where it would normally be placed on the page.<br> 
+               If you only set the position to relative and nothing else it won’t move as that is where it is supposed to be. It won’t be until you define one or multiple of its attributes it will move.<br>
+               Attributes being top, bottom, left or right.<br> 
+               For example if you set “top:10px” this would move the element 10px down from where it is meant to sit. </p>
+        </div>
+
+        <div class="content">
+            <h2>ABSOLUTE</h2>
+            <p>
+                Setting your elements position as <strong>Absolute</strong> means you are setting the element positioned according to its parent element. <br> 
+                So unlike when you se relative it positions itself based off where it is meant to be it will position itself based off where it is inside its parents element. </br> 
+                The parent element it is positioned inside should be positioned relatively, however if no parent element exists it will position itself relative to the page itself.</br> 
+                Setting an element as absolute means it is removed from the flow of the page, which means it will not be affected by other elements beside its parent and also will not affect other elements.
+            </p>
+        </div>
+
+        <div class="content">
+            <h2>FIXED</h2>
+            <p>
+                Setting your elements position as <strong>Fixed</strong> means you are setting the element fixed to the browser window.</br> 
+                When you set an elements position as fixed it means the element will not move when the page is scrolled.</br> 
+                This attribute is typically used for something like a navigation bar that you always want to be visible on the page as the user scrolls down.</br> 
+                The main thing you would need to be careful of when using a fixed position is that it doesn’t overlap any of your other information on the page to where it is unseeable. 
+            </p>
+        </div>
+    </div>
+</hr>
+
+  </body>
+</html>
