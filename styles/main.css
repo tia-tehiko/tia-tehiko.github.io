@@ -15,10 +15,12 @@ hr {
 .header {
     font-size: 15px;
     text-align: center;
-    color: rgb(143, 180, 177);
-}
-.quote {
-    font-style: italic;
+    color: rgb(99, 124, 122);
+    background-image: url(css-images/Header2.jpeg);
+	background-position: 100% ;
+    background-repeat: no-repeat;
+    margin: 20px; 
+    padding: 20px; 
 }
 
 .portrait {
@@ -30,7 +32,7 @@ hr {
 }
 .about-grid{
 	display: grid;
-	grid-template-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
 }
 .i-am, .i-like{
 	text-align: center; 
@@ -44,7 +46,8 @@ hr {
 .blog-heading {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .blog-grid{
@@ -60,7 +63,12 @@ hr {
 }
 
 .blog-image {
-width: 225px;
+    width: 225px;
+    justify-self: center;
+    padding: 4%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16)
+    transition: all ease-in-out .2s;
 }
 
 .blog-image-wrapper > .link {
