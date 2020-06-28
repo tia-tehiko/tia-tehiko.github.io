@@ -54,6 +54,7 @@ hr {
 .blog-grid{
     display: grid; 
     grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-evenly;
 }
 
 .blog-image-wrapper {
@@ -91,4 +92,19 @@ blog-image-wrapper:hover > .link {
 .blog-image:hover{
 	filter: brightness(.50);
 	box-shadow: 0 8px 12px 0 rgba(34, 60,80, .16)
+}
+
+@media (max-width: 1050px) {
+	.blog-grid{
+        grid-template-columns: 50% 50%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.blog-grid{
+		grid-template-columns: 100%;
+    }
+    .about-grid {
+        grid-template-columns: 100%;
+    }
 }
