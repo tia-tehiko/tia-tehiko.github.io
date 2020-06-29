@@ -9,6 +9,26 @@
 .main {
     margin: 10px auto;
     width: 80%;
+    align-items: center;
+}
+
+.grid { 
+    display: grid;
+
+}
+
+.container {
+    display: flex;
+}
+
+.aboutmain {
+    margin: 10px auto;
+    width: 50%;
+    height: auto;
+}
+
+.aboutgrid{
+    margin: 20px;
 }
 
 hr {
@@ -91,7 +111,7 @@ hr {
     font-weight: bold;
 }
 
-blog-image-wrapper:hover > .link {
+.blog-image-wrapper:hover > .link {
 	visibility: visible;
 }
 
@@ -107,7 +127,9 @@ blog-image-wrapper:hover > .link {
     margin: 0 auto;
     text-align: right;
     list-style: none;
-    margin: 20px;
+    margin: 20px 0 20px 0;
+    max-width: 100%;
+    padding: 0;
 }
 
 .navtab {
@@ -118,8 +140,8 @@ blog-image-wrapper:hover > .link {
 .navlink {
     color: #333333;
     text-transform: uppercase;
-    display: block;
     text-decoration: none;
+    display: block;
     padding: 15px;
     white-space: nowrap;
 }
@@ -138,6 +160,46 @@ blog-image-wrapper:hover > .link {
 }
 p {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+aboutheading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.aboutp {
+    margin: 0 0 30px 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.quotecontainer {
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+}
+.quoteimage {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16)
+    transition: all ease-in-out .2s;
+}
+
+.relative-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.positiontitle {
+    text-align: center;
 }
 
 .whakatauki {
