@@ -6,37 +6,54 @@
     display: grid;
 
 }
+.main {
+    margin: 10px auto;
+    width: 80%;
+}
+
 .navbar {
     text-align: right;
     padding: 20px;
     margin: 20px;
-    background-color: rgba(0, 112, 84, 0.377);
 }
 
-.header {
+.header h1{
     justify-self: center;
-    color:  rgb(71, 122, 118);
+    color: rgb(11, 211, 194);
 }
 
-h1 {
-    text-align: center;
-    justify-self: center;
-    position: relative;
+.header h4 {
+    color: rgb(35, 119, 94);
 }
 h2 {
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: underline;
 }
 
 p {
     text-align: center;
     margin: 20px;
     padding: 20px;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 hr {
 	border: 0;
 	height: 1px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+}
+
+.container {
+    display: flex;
+    align-items: flex;
+    justify-items: flex;
+}
+
+.relative-image {
+    max-width: 800px;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }

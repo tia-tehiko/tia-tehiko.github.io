@@ -5,10 +5,12 @@
     <link href="styles/technical.css" rel="stylesheet" type="text/css"> 
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <html>
   <body>
+      <div class=main>
 
     <div class="navbar">
         <span class="Home">
@@ -18,20 +20,25 @@
       </div>
 
     <div class="header"> 
-      <h1>Understanding the differences between Relative, Absolute and Fixed Positioning</h1>
+      <h4>Understanding the differences between</h4> 
+      <h1>Relative, Absolute and Fixed Positioning</h1>
     </div>
-</hr>
+<hr>
     <div class="subheading">
         <p>The CSS property “Position” as the name suggests is used to position your elements on your webpage using CSS. There are five options when selecting a position attribute. The main attributes Relative, Absolute and Fixed and their differences are explained below. </p>
     </div>
-
-    <div class="grid">
+<hr>
+    <div class="flexbox">
         <div class="content">
             <h2>RELATIVE</h2>
-            <p>Setting your elements position as <strong>Relative</strong> means you are setting the element relative to where it would normally be placed on the page.<br> 
-               If you only set the position to relative and nothing else it won’t move as that is where it is supposed to be. It won’t be until you define one or multiple of its attributes it will move.<br>
+            <p>Setting your elements position as <strong>Relative</strong> means you are setting the element relative to where it would normally be placed on the page if you do nothing to its position.<br> 
+            </p>
+        <p>This means your element won't move until you define one or multiple of its attributes.<br>
                Attributes being top, bottom, left or right.<br> 
-               For example if you set “top:10px” this would move the element 10px down from where it is meant to sit. </p>
+               For example if you set “top:10px” this would move the element 10px down from where it is meant to sit. </p> 
+               <div class="container"> 
+                <img class="relative-image" src="images/relative1.png">  
+               </div>
         </div>
 
         <div class="content">
@@ -54,7 +61,8 @@
             </p>
         </div>
     </div>
-</hr>
+</div>
+<hr>
 
   </body>
 </html>
