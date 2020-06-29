@@ -99,7 +99,7 @@ hr {
     transition: all ease-in-out .2s;
 }
 
-.blog-image-wrapper > .link {
+.blog-image-wrapper >.link {
     position: absolute;
     text-align: center;
 	top: 50%;
