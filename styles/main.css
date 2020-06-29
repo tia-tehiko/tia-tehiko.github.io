@@ -21,7 +21,7 @@ hr {
 }
 
 .portrait {
-    border-radius: 40px;
+    border-radius: 150px;
     box-shadow: 0 4px 6px 0 rgba (34, 60, 80, .16)
 }
 .portrait:hover {
