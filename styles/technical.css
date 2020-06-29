@@ -11,10 +11,28 @@
     width: 80%;
 }
 
-.navbar {
+.navlist {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
     text-align: right;
-    padding: 20px;
+    list-style: none;
     margin: 20px;
+}
+
+.navtab {
+    display: inline-block;
+    text-align: right;
+}
+
+.navlink {
+    color: #333333;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    white-space: nowrap;
 }
 
 .header h1{
@@ -31,8 +49,6 @@
 }
 h2 {
     text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
-    text-decoration: underline;
 }
 
 p {
