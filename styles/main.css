@@ -120,6 +120,20 @@ hr {
 	box-shadow: 0 8px 12px 0 rgba(34, 60,80, .16)
 }
 
+.values {
+    max-width: 100%;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.valueslist {
+    display: inline-block;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    padding: 10px;
+    text-decoration: underline;
+}
+
 .navlist {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1em;
