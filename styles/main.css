@@ -140,6 +140,12 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
+.whakatauki {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
 @media (max-width: 1050px) {
 	.blog-grid{
         grid-template-columns: 50% 50%;
