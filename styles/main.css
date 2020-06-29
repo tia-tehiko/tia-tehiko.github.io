@@ -98,7 +98,10 @@ blog-image-wrapper:hover > .link {
 @media (max-width: 1050px) {
 	.blog-grid{
         grid-template-columns: 50% 50%;
-	}
+    }
+    .link {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
 }
 
 @media screen and (max-width: 750px) {
