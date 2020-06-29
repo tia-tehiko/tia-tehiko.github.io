@@ -6,6 +6,11 @@
     background-color: #e6fffe;
 }
 
+.main {
+    margin: 10px auto;
+    width: 80%;
+}
+
 hr {
 	border: 0;
 	height: 1px;
