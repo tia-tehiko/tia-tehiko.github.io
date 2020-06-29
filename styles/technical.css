@@ -66,8 +66,6 @@ hr {
 
 .container {
     display: flex;
-    align-items: flex;
-    justify-items: flex;
 }
 
 .relative-image {
@@ -75,7 +73,6 @@ hr {
     margin-right: auto;
     max-width: 75%;
     height: auto;
-    width: auto\9;
 }
 
 .main {
