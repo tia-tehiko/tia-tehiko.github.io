@@ -23,7 +23,7 @@
 
 .aboutmain {
     margin: 10px auto;
-    width: 50%;
+    width: 75%;
     height: auto;
 }
 
@@ -172,6 +172,21 @@ hr {
     margin-bottom: 0px;
     margin-left: 10px;
 }
+
+.aboutheader h3 {
+    color: rgb(253, 192, 168);
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.aboutheader h1{
+    justify-self: center;
+    color: rgb(255, 158, 119);
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+
 p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -202,7 +217,7 @@ aboutheading {
     max-width: 50%;
     height: auto;
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16)
-    transition: all ease-in-out .2s;
+
 }
 
 .relative-image {
