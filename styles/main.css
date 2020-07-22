@@ -206,6 +206,10 @@ aboutheading {
     text-align: center;
 }
 
+.lessonlist {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .quotecontainer {
     display: flex;
     max-width: 100%;
