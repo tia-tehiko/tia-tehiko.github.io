@@ -248,8 +248,18 @@ aboutheading {
     margin: 0 auto;
 }
 
+.games-grid{
+    display: grid; 
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: space-evenly;
+    margin-top: 75px ;
+}
+
 @media (max-width: 1050px) {
-	.blog-grid{
+	.blog-grid {
+        grid-template-columns: 50% 50%;
+    }
+    .games-grid {
         grid-template-columns: 50% 50%;
     }
     .link {
@@ -258,10 +268,13 @@ aboutheading {
 }
 
 @media screen and (max-width: 750px) {
-	.blog-grid{
+	.blog-grid {
 		grid-template-columns: 100%;
     }
     .about-grid {
         grid-template-columns: 100%;
+    }
+    .games-grid {
+		grid-template-columns: 100%;
     }
 }
