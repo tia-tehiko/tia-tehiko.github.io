@@ -1,9 +1,10 @@
 * {
     font-family: 'Fira Mono', monospace;
-    /*border: 1px solid red !important; */
+    /*border: 1px solid red !important; */;
 }
 .body {
     background-color: #e6fffe;
+    background-image: url("back2.jpeg")
 }
 
 .main {
