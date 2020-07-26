@@ -255,6 +255,13 @@ aboutheading {
     margin-top: 75px ;
 }
 
+.carnivaltitle {
+    font-family: 'Rye', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: crimson; 
+}
+
 @media (max-width: 1050px) {
 	.blog-grid {
         grid-template-columns: 50% 50%;
