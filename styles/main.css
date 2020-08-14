@@ -263,7 +263,19 @@ aboutheading {
     color: crimson; 
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
+	.blog-grid {
+        grid-template-columns: 25%  25%  25%  25%;
+    }
+    .games-grid {
+        grid-template-columns:  25%  25%  25%  25%;;
+    }
+    .link {
+        background-color: rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media (max-width: 768px) {
 	.blog-grid {
         grid-template-columns: 50% 50%;
     }
@@ -275,7 +287,7 @@ aboutheading {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 500px) {
 	.blog-grid {
 		grid-template-columns: 100%;
     }
