@@ -263,6 +263,10 @@ aboutheading {
     color: crimson; 
 }
 
+.subheader {
+    text-align: center;
+}
+
 @media (max-width: 1200px) {
 	.blog-grid {
         grid-template-columns: 25%  25%  25%  25%;
