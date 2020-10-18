@@ -195,7 +195,7 @@ p {
     padding: 15px;
 }
 
-aboutheading {
+.aboutheading {
     margin-top: 30px;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -286,7 +286,8 @@ aboutheading {
 }
 
 .footerlink {
-    color: #333333;
+    color: rgb(11, 211, 194);
+    font-size: 1.25em;
     text-transform: uppercase;
     text-decoration: none;
     display: block;
