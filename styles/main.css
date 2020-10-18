@@ -195,7 +195,7 @@ p {
     padding: 15px;
 }
 
-aboutheading {
+.aboutheading {
     margin-top: 30px;
     margin-bottom: 30px;
     text-transform: uppercase;
@@ -263,6 +263,38 @@ aboutheading {
     color: crimson; 
 }
 
+.subheader {
+    text-align: center;
+}
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 7em;
+    transition: all .7s ease-in;
+    border-top: 1px solid rgb(187, 187, 187);
+    min-height: 6vh;
+    box-sizing: border-box;
+    transition: all .7s ease-in;
+    padding: 4em;
+}
+
+.footer > * {
+    flex-basis: 30%;
+    min-width: 15em;
+}
+
+.footerlink {
+    color: rgb(11, 211, 194);
+    font-size: 1.25em;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    white-space: nowrap;
+}
+
 @media (max-width: 1200px) {
 	.blog-grid {
         grid-template-columns: 25%  25%  25%  25%;
@@ -298,3 +330,7 @@ aboutheading {
 		grid-template-columns: 100%;
     }
 }
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
