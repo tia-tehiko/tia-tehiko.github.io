@@ -260,14 +260,14 @@ p {
     font-family: 'Rye', cursive;
     text-align: center;
     font-size: 50px;
-    color: crimson; 
+    color: rgb(152, 205, 255); 
 }
 
 .subheader {
     text-align: center;
 }
 
-  .footer {
+.footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -293,6 +293,22 @@ p {
     display: block;
     padding: 10px;
     white-space: nowrap;
+}
+
+.postContainer {
+    display: flex;
+    
+}
+
+.postSummary {
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.box2 {
+    justify-content: center;
+    text-align: center;
 }
 
 @media (max-width: 1200px) {
