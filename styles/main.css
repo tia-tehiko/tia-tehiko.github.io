@@ -311,6 +311,11 @@ p {
     text-align: center;
 }
 
+video {
+    display: block;
+    margin: 0 auto;
+}
+
 @media (max-width: 1200px) {
 	.blog-grid {
         grid-template-columns: 25%  25%  25%  25%;
