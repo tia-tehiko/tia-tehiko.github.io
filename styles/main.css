@@ -326,8 +326,8 @@ video {
     display: inline-block;
     justify-self: center;
     margin: 0 auto;
-    widows: 100px;
-    height: 100px;
+    widows: 80px;
+    height: 80px;
 }
 
 @media (max-width: 1200px) {
