@@ -316,6 +316,20 @@ video {
     margin: 0 auto;
 }
 
+.contactcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3em;
+}
+
+.contacticon {
+    display: inline-block;
+    justify-self: center;
+    margin: 0 auto;
+    widows: 100px;
+    height: 100px;
+}
+
 @media (max-width: 1200px) {
 	.blog-grid {
         grid-template-columns: 25%  25%  25%  25%;
